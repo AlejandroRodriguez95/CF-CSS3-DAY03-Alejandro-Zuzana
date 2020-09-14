@@ -17,6 +17,9 @@ body{
 .big-border{
     border-bottom: solid 10px black;
 }
+.big-border-bottom{
+    border-bottom: solid 6px black;
+}
 .align-right{
     display: flex;
     justify-content: flex-end;
@@ -26,11 +29,12 @@ body{
 
 .flexbox-one{
     display: flex;
+    border-bottom: 1px solid black;
     justify-content: space-between;
 }
 .first-row{
+    font-weight: bold;
     flex-shrink: 1;
-/*     border:  1px solid black; */
     width: 50%;
 }
 .second-row{
@@ -49,29 +53,29 @@ body{
 }
 
 .flexbox-two {
-    border-top: 1px solid black;
     display: flex;
     justify-content: space-between;
 }
 
 .flexbox-third {
-    border-top: 1px solid black;
     display: flex;
     justify-content: space-between;
  /*    margin-left: 5%; */
 }
 
+
 .first-row-items {
     flex-shrink: 1;
-/*     border:  1px solid black; */
-    width: 50%;
-    text-align: center;
+    border-top:  1px solid black; 
+    width: 40%;
+    z-index: 0;
+    margin-left: 10%;
 }
 
 .second-row-items {
     align-self: flex-end;
     flex-shrink: 4;
-/*     border:  1px solid black; */
+    border-top:  1px solid black; 
     width: 30%;
     text-align: right;
 }
@@ -79,7 +83,12 @@ body{
 .third-row-items {
     align-self: flex-end;
     flex-shrink: 4;
-/*     border:  1px solid black; */
+    border-top:  1px solid black; 
     width: 20%;
     text-align: right;
 }
+
+.border-bottom{
+    border-bottom: solid black 3px;
+}
+
