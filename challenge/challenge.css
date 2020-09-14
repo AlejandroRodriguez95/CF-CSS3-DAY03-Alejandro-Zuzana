@@ -5,6 +5,7 @@
 
 html, body {
 	background-color: black;
+
 }
 .conteiner {
 	width: 600px;
@@ -14,37 +15,40 @@ html, body {
 
 header {
 	width: 100%;
+	height: 50px;
 	background-color:#E20074;
+	display: flex;
+	align-items: center;
+}
+
+h3 {
+	padding-left: 5%;
+	width: 20%;
+	color: white;
+}
+ul {
+	width: 80%;
+	list-style-type: none;
 	display: flex;
 	justify-content: space-between;
 }
 
-ul {
-	list-style-type: none;
-	display: flex;
-	border: 1px solid black;
-	align-self: center;
-
+span {
+	color: white;
 }
-
-ul > li {
-	margin: auto;
-} 
-
-div {
-/* 	display: flex; */
-		border: 1px solid black;
-
+a {
+	text-decoration: none;
+	color: white;
 }
 
 .left_nav {
+	width: 25%;
 	display: flex;
-	border: 1px solid black;
 	justify-content: space-between;
-
 }
 
 .right_nav {
+	width: 25%;
 	display: flex;
-	border: 1px solid black;
+	justify-content: space-around;
 }
