@@ -1,0 +1,40 @@
+*{
+    margin:0;
+}
+#main{
+    padding: 0px 5px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 35%;
+    background-color: white;
+    border: solid 1px white;
+}
+body{
+    background-color: black;
+}
+.big-border{
+    border-bottom: solid 10px black;
+}
+.align-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*  Flexbox one (Amount per serving, milk, cereal) */
+
+.flexbox-one{
+    display: flex;
+    justify-content: space-between;
+}
+.first-row{
+    flex-grow: 1;
+}
+.second-row{
+    align-self: flex-end;
+}
+.third-row{
+    align-self: flex-end;
+    padding-left: 3em;
+}
